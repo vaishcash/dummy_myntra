@@ -1,6 +1,7 @@
 import profile from "../assets/profile.png";
 import heart from "../assets/heart.png";
 import bag from "../assets/bag.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -17,12 +18,12 @@ const Navbar = () => {
 
         {/* Nav Links */}
         <div className="hidden md:flex text-xs font-bold gap-4 lg:gap-10">
-          <h5>MEN</h5>
-          <h5>WOMEN</h5>
-          <h5>KIDS</h5>
-          <h5>HOME & LIVING</h5>
-          <h5>BEAUTY</h5>
-          <h5>STUDIO</h5>
+          <Link to="/men">MEN</Link>
+          <Link to="/women">WOMEN</Link>
+          <Link to="/kids">KIDS</Link>
+          <Link to="/home&living">HOME & LIVING</Link>
+          <Link to="/beauty">BEAUTY</Link>
+          <Link to="/studio">STUDIO</Link>
         </div>
 
         {/* Search Bar */}
@@ -43,7 +44,9 @@ const Navbar = () => {
         <div className="flex items-center gap-4 md:gap-6">
           <div className="flex flex-col items-center">
             <img className="w-[18px] lg:w-[20px]" src={profile} alt="Profile" />
-            <h2 className="text-xs font-bold">Profile</h2>
+            <Link to="/profile">
+              <Link to = "/profile" className="text-xs font-bold">Profile</Link>
+            </Link>
           </div>
           <div className="flex flex-col items-center">
             <img className="w-[18px] lg:w-[20px]" src={heart} alt="Wishlist" />

@@ -1,4 +1,4 @@
-const Card = ({ name, imgUrl, category, brand, discount, }: any) => {
+const Card = ({ name, imgUrl, category, brand, discount, }: { name: string; imgUrl: string; category: string; brand: string; discount: string; }) => {
 
 
   return (
