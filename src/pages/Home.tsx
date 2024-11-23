@@ -375,6 +375,14 @@ const App = () => {
   return (
     <>
       <Navbar />
+      {/* Banner Image */}
+      <div className="w-full mt-4">
+        <img
+          className="w-full object-cover"
+          src="src/assets/Artboard 1.png"
+          alt="Banner"
+        />
+      </div>
       <div className="flex justify-center items-center flex-col ">
         <h1 className="text-yellow-500 text-4xl font-bold my-7 ">
           Coupons Corner

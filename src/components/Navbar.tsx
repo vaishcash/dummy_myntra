@@ -42,30 +42,25 @@ const Navbar = () => {
 
         {/* Icons Section */}
         <div className="flex items-center gap-4 md:gap-6">
-          <div className="flex flex-col items-center">
-            <img className="w-[18px] lg:w-[20px]" src={profile} alt="Profile" />
-            <Link to="/profile">
-              <Link to = "/profile" className="text-xs font-bold">Profile</Link>
-            </Link>
-          </div>
+          <Link to="/profile">
+            <div className="flex flex-col items-center">
+              <img
+                className="w-[18px] lg:w-[20px]"
+                src={profile}
+                alt="Profile"
+              />
+              <h2 className="text-xs font-bold">Profile</h2>
+            </div>
+          </Link>
           <div className="flex flex-col items-center">
             <img className="w-[18px] lg:w-[20px]" src={heart} alt="Wishlist" />
             <h2 className="text-xs font-bold">Wishlist</h2>
           </div>
-          <div className="flex flex-col items-center">
-            <img className="w-[22px] lg:w-[26px]" src={bag} alt="Bag" />
-            <h2 className="text-xs font-bold">Bag</h2>
+          <div className="flex flex-col items-center ">
+            <img className="w-[20px] lg:w-[24px]" src={bag} alt="Bag" />
+            <h2 className="text-xs font-bold mb-1">Bag</h2>
           </div>
         </div>
-      </div>
-
-      {/* Banner Image */}
-      <div className="w-full mt-4">
-        <img
-          className="w-full object-cover"
-          src="src/assets/Artboard 1.png"
-          alt="Banner"
-        />
       </div>
     </>
   );
