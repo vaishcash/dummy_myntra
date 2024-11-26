@@ -1,5 +1,5 @@
 // BeautyItemCard.js
-import React from "react";
+
 
 function BeautyItemCard({ imgUrl, category } : { imgUrl : string ; category : string}) {
   return (
