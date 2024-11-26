@@ -379,7 +379,7 @@ const App = () => {
       <div className="w-full mt-4">
         <img
           className="w-full object-cover"
-          src="src/assets/Artboard 1.png"
+          src="assets/Artboard 1.png"
           alt="Banner"
         />
       </div>
@@ -387,7 +387,7 @@ const App = () => {
         <h1 className="text-yellow-500 text-4xl font-bold my-7 ">
           Coupons Corner
         </h1>
-        <img className="w-[1100px] " src="src/assets/Asset 1300.png"></img>
+        <img className="w-[1100px] " src="assets/Asset 1300.png"></img>
       </div>
       <div>
         <h3 className="text-3xl font-bold text-left text-transform : uppercase  p-12 ">
@@ -445,7 +445,7 @@ const App = () => {
         })}
       </div>
       <div className="flex justify-center items-center">
-        <img className="w-[1100px]" src="src/assets/EORS_JUN_2020.png"></img>
+        <img className="w-[1100px]" src="assets/EORS_JUN_2020.png"></img>
       </div>
       <Footer />
     </>

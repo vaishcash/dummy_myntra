@@ -1,6 +1,4 @@
-import profile from "../assets/profile.png";
-import heart from "../assets/heart.png";
-import bag from "../assets/bag.png";
+
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -46,18 +44,26 @@ const Navbar = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-[18px] lg:w-[20px]"
-                src={profile}
+                src="assets/profile.png"
                 alt="Profile"
               />
               <h2 className="text-xs font-bold">Profile</h2>
             </div>
           </Link>
           <div className="flex flex-col items-center">
-            <img className="w-[18px] lg:w-[20px]" src={heart} alt="Wishlist" />
+            <img
+              className="w-[18px] lg:w-[20px]"
+              src="assets/heart.png"
+              alt="Wishlist"
+            />
             <h2 className="text-xs font-bold">Wishlist</h2>
           </div>
-          <div className="flex flex-col items-center ">
-            <img className="w-[20px] lg:w-[24px]" src={bag} alt="Bag" />
+          <div className="flex flex-col items-center">
+            <img
+              className="w-[22px] lg:w-[26px]"
+              src="assets/bag.png"
+              alt="Bag"
+            />
             <h2 className="text-xs font-bold mb-1">Bag</h2>
           </div>
         </div>
