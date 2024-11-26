@@ -7,6 +7,24 @@ import Card from "../components/Card";
 const App = () => {
   const items = [
     {
+      id: "product004",
+      name: "Puma Sports Shoes",
+      brand: "Puma",
+      category: "Athletic Wear",
+      discount: "25% OFF",
+      imageUrl: "/img 3.jpg",
+      tags: ["Footwear", "Sports", "Men's Fashion"],
+    },
+    {
+      id: "product005",
+      name: "Reebok Training Shoes",
+      brand: "Reebok",
+      category: "Training Gear",
+      discount: "40% OFF",
+      imageUrl: "/img 4.jpg",
+      tags: ["Footwear", "Training", "Women's Fashion"],
+    },
+    {
       id: "product003",
       name: "Adidas Originals",
       brand: "Adidas",
@@ -91,9 +109,108 @@ const App = () => {
       imageUrl: "/f70af4b48c203d66917a0a256e11cc06.jpg",
       tags: ["T-Shirt", "Polo", "Men's Casual Wear"],
     },
+    {
+      id: "product005",
+      name: "Dress",
+      brand: "Uniqlo",
+      category: "Unisex",
+      discount: "15% OFF",
+      imageUrl: "/woman-4290853_1280.jpg",
+      tags: ["Sweater", "Winter Wear", "Unisex"],
+    },
+    {
+      id: "product001",
+      name: "Cotton Summer Dress",
+      brand: "Zara",
+      category: "Women's Fashion",
+      discount: "Up to 50% OFF",
+      imageUrl: "assets/images1.jpg",
+      tags: ["Dress", "Casual", "Summer", "Women's Clothing"],
+    },
+    {
+      id: "product003",
+      name: "Classic Polo T-Shirt",
+      brand: "Ralph Lauren",
+      category: "Men's Fashion",
+      discount: "20% OFF",
+      imageUrl: "/f70af4b48c203d66917a0a256e11cc06.jpg",
+      tags: ["T-Shirt", "Polo", "Men's Casual Wear"],
+    },
   ];
 
   const catogiries = [
+    {
+      id: "category001",
+      name: "Shoes",
+      imgUrl: "/img 2.jpg",
+      discount: "Up to 30% OFF",
+    },
+    {
+      id: "category002",
+      name: "Watch",
+      imgUrl: "/Untitled.jpg",
+      discount: "Up to 30% OFF",
+    },
+    {
+      id: "category003",
+      name: "Jeans",
+      imgUrl: "/sddad.jpg",
+      discount: "Up to 30% OFF",
+    },
+    {
+      id: "category004",
+      name: "Kurta",
+      imgUrl: "/81NdPfqLRmL._AC_UY1100_.jpg",
+      discount: "Up to 30% OFF",
+    },
+    {
+      id: "category005",
+      name: "Purse",
+      imgUrl: "/images.jpg",
+      discount: "Up to 30% OFF",
+    },
+    {
+      id: "category006",
+      name: "Sandals",
+      imgUrl: "/Untitledhh.jpg",
+      discount: "Up to 30% OFF",
+    },
+    {
+      id: "category001",
+      name: "Shoes",
+      imgUrl: "/img 2.jpg",
+      discount: "Up to 30% OFF",
+    },
+    {
+      id: "category002",
+      name: "Watch",
+      imgUrl: "/Untitled.jpg",
+      discount: "Up to 30% OFF",
+    },
+    {
+      id: "category003",
+      name: "Jeans",
+      imgUrl: "/sddad.jpg",
+      discount: "Up to 30% OFF",
+    },
+    {
+      id: "category004",
+      name: "Kurta",
+      imgUrl: "/81NdPfqLRmL._AC_UY1100_.jpg",
+      discount: "Up to 30% OFF",
+    },
+    {
+      id: "category005",
+      name: "Purse",
+      imgUrl: "/images.jpg",
+      discount: "Up to 30% OFF",
+    },
+    {
+      id: "category006",
+      name: "Sandals",
+      imgUrl: "/Untitledhh.jpg",
+      discount: "Up to 30% OFF",
+    },
     {
       id: "category001",
       name: "Shoes",
